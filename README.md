@@ -12,8 +12,6 @@
   </div>
 </div>
 
-<hr>
-
 <div>
   <h1>What is good notes?</h1>
   <p>
