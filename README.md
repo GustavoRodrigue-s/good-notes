@@ -19,9 +19,7 @@
   <p>
     The good notes project is a simple and functional notes web application.
   </p>
-  <p>
-    The link to access it is: <a href="https://good-notes-app.herokuapp.com">good notes</a>
-  </p>
+  <pre>The link to access it is: <a href="https://good-notes-app.herokuapp.com">good notes</a></pre>
 </div>
 
 <img src="https://user-images.githubusercontent.com/81722068/179663448-29abe138-01c8-48fd-bbe9-d1183490db6b.png" />
