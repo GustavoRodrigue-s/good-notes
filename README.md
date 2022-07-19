@@ -24,16 +24,29 @@
 
 <div>
   <div>
-    <h2>
-      What is the purpose of good notes?
-    </h2>
+    <h2>About the project</h2>
+    <h3>What is purpose?</h3>
     <p>
       Initially it was to learn about <code>Javascript</code> and how the flow of a "real application" works, however i learned a lot more than i expected. For these reasons, i would like to share about the project study and development process.
     </p>
+    <h3>Main Features</h3>
+    <dl>
+      <dt>Short explanation</dt>
+      <dd>
+        <p>
+          With <em>good notes</em> you can create an account and store your notes by organizing them into categories.
+        </p>
+      </dd>
+      <dt>Technical explanation</dt>
+      <dd>
+        
+      </dd>
+    </dl>
   </div>
 </div>
 
 <div>
+  <h2>Repositories</h2>
   <blockquote>
     The links to access the repositories are:
      <ul>
