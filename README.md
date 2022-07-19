@@ -1,5 +1,5 @@
 <div>
-  <h1 style"color: skyblue;"=>good-notes - note app 🧑🏽‍💻</h1>
+  <h1 style="color: skyblue;">good-notes - note app 🧑🏽‍💻</h1>
 </div>
 
 <div>
