@@ -33,6 +33,16 @@
   </div>
 </div>
 
+<div>
+  <blockquote>
+    The links to access the repositories are:
+     <ul>
+      <li><a href="https://github.com/GustavoRodrigue-s/good-notes-frontend">good-notes-frontend</a></li>
+      <li><a href="https://github.com/GustavoRodrigue-s/good-notes-backend">good-notes-backend</a></li>
+    </ul>
+  </blockquote>
+</div>
+
 &nbsp;
 
 <div>
@@ -56,6 +66,27 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" />
       </li>
       <li>Api (Backend)</li>
+      <li>Serve</li>
+    </ul>
+    <h3>Back-end (Server side)</h3>
+    <ul>
+      <li>
+        Python
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" />
+      </li>
+      <li>Flask</li>
+      <li>
+        PostgreSQL
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="20" />
+      </li>
+    </ul>
+    <h3>Cloud (Storage)</h3>
+    <ul>
+      <li>
+        Heroku
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" width="20" />
+      </li>
+      <li>Cloudinary</li>
     </ul>
   </div>
 </div>
