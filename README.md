@@ -23,14 +23,12 @@
 </div>
 
 <div>
-  <h1> About project</h1>
-  
   <div>
     <h2>
-      What is your purpose?
+      What is the purpose of good notes?
     </h2>
     <p>
-      Learning
+      Initially it was to learn about <code>Javascript</code> and how the flow of a "real application" works, however i learned a lot more than i expected. For these reasons, i would like to share about the project study and development process.
     </p>
   </div>
 </div>
@@ -40,3 +38,26 @@
 <div>
   <img src="https://user-images.githubusercontent.com/81722068/179663448-29abe138-01c8-48fd-bbe9-d1183490db6b.png" />
 </div>
+
+&nbsp;
+
+<div>
+  <h2>Technologies and services used 🛠️</h2>
+  <div>
+    <h3>Front-end (Client side)</h3>
+    <ul>
+      <li style="vertical-align: middleware;">
+        HTML5 & CSS3
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="30" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="30" />
+      </li>
+      <li>
+        Javascript
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" />
+      </li>
+      <li>Api (Backend)</li>
+    </ul>
+  </div>
+</div>
+
+
