@@ -6,7 +6,10 @@
   <blockquote>
     The link to access it is: <a href="https://good-notes-app.herokuapp.com">good notes</a>
   </blockquote>
-  <pre>Attention!! The good notes is not a "real application", good notes is just a project.</pre>
+</div>
+
+<div>
+  <strong>Attention!! The good notes is not a "real application", good notes is just a project.</strong>
 </div>
 
 <div>
