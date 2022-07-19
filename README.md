@@ -3,24 +3,20 @@
   <p>
     The good notes project is a simple and functional notes web application.
   </p>
-  <pre>The link to access it is: <a href="https://good-notes-app.herokuapp.com">good notes</a></pre>
-  <strong>
-    Attention!! The good notes is not a "real application", good notes is just a project.
-  </strong>
+  <blockquote>
+    The link to access it is: <a href="https://good-notes-app.herokuapp.com">good notes</a>
+  </blockquote>
+  <pre>Attention!! The good notes is not a "real application", good notes is just a project.</pre>
 </div>
 
-&nbsp;
-
 <div>
-  <blockquote>
-    <h2>Readme languages</h2>
-    <div>
-      <a href="#" style="cursor: pointer; color: skyblue;">English</a>
-    </div>
-    <div>
-      <a href="#" >Portuguese</a>
-    </div>
-  </blockquote>
+  <h2>Readme languages</h2>
+  <div>
+    <a href="#" style="cursor: pointer; color: skyblue;">English</a>
+  </div>
+  <div>
+    <a href="#" >Portuguese</a>
+  </div>
 </div>
 
 <div>
