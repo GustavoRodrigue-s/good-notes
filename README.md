@@ -111,4 +111,13 @@
   </div>
 </div>
 
+<div>
+  <h2>Why use all this?</h2>
+  <div>
+    <p>
+      On the frontend, <code>HTML</code>, <code>CSS</code> and <code>JS</code> are used to build all interfaces. The <code>Serve</code> library is used to create a static server on <code>Heroku</code> (heroku only allows you to deploy a repository if it is a server)
+    </p>
+  </div>
+</div>
+
 
