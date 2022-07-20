@@ -95,10 +95,6 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" />
       </li>
       <li>Flask</li>
-      <li>
-        PostgreSQL
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="20" />
-      </li>
     </ul>
     <h3>Cloud (Storage)</h3>
     <ul>
@@ -107,6 +103,10 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" width="20" />
       </li>
       <li>Cloudinary</li>
+       <li>
+        PostgreSQL
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="20" />
+      </li>
     </ul>
   </div>
 </div>
@@ -115,13 +115,13 @@
   <h2>Why use all this?</h2>
   <div>
     <p>
-      On the frontend, <code>HTML</code>, <code>CSS</code> and <code>JS</code> are used to build all interfaces.
+      On the frontend, <code>HTML</code>, <code>CSS</code> and <code>JS</code> are used to build all interfaces. The <code>Serve</code> library is used to create a static server on <code>Heroku</code> (heroku only allows you to deploy a repository if it is a server)
     </p>
     <p>
-      On the backend, i'm using <code>Python</code> as main language (but today i would use <code>Node.js</code>), <code>Flask</code> is a framework used to create APIs (Application Programming Interface, are used to create call pointers between the frontend and backend of an application). The <code>PostgreSQL</code> is a relational database used to store system and user informatios.
+      On the backend, i'm using <code>Python</code> as main language (but today i would use <code>Node.js</code>). <code>Flask</code> is a framework used to create APIs (Application Programming Interface, are used to create call pointers between the frontend and backend of an application).
     </p>
     <p>
-      The <code>Serve</code> library is used to create a static server on <code>Heroku</code> (heroku only allows you to deploy a repository if it is a server)
+      <code>Heroku</code> is a hosting service used to "ride up" the application, so everyone can access it. <code>Cloudinary</code> is a simple service used to store images. <code>PostgreSQL</code> is a relational database used to store system and user information.
     </p>
   </div>
 </div>
