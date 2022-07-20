@@ -39,7 +39,12 @@
       </dd>
       <dt>Technical explanation</dt>
       <dd>
-        
+        <p>
+          In this project we have three entities, user, category and note. For each one, we have a <code>CRUD</code> (Create, Read, Update, Delete), this entities are related, that's why we use <code>SQL</code> (Structured Query Language; Used to relate tables).
+        </p>
+        <p>
+          To keep everything organized, we use <code>MVC</code> (Model View Controller) in the backend, <code>Factory</code> and <code>Observer</code> patterns in the frontend (More details about the software architecture will be cited bellow).
+        </p>
       </dd>
     </dl>
   </div>
