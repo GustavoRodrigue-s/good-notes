@@ -49,10 +49,12 @@
   <h2>Repositories</h2>
   <blockquote>
     The links to access the repositories are:
-     <ul>
-      <li><a href="https://github.com/GustavoRodrigue-s/good-notes-frontend">good-notes-frontend</a></li>
-      <li><a href="https://github.com/GustavoRodrigue-s/good-notes-backend">good-notes-backend</a></li>
-    </ul>
+    <div>
+      <a href="https://github.com/GustavoRodrigue-s/good-notes-frontend">good-notes-frontend</a>
+    </div>
+    <div>
+      <a href="https://github.com/GustavoRodrigue-s/good-notes-backend">good-notes-backend</a>
+    </div>
   </blockquote>
 </div>
 
