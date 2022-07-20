@@ -115,7 +115,13 @@
   <h2>Why use all this?</h2>
   <div>
     <p>
-      On the frontend, <code>HTML</code>, <code>CSS</code> and <code>JS</code> are used to build all interfaces. The <code>Serve</code> library is used to create a static server on <code>Heroku</code> (heroku only allows you to deploy a repository if it is a server)
+      On the frontend, <code>HTML</code>, <code>CSS</code> and <code>JS</code> are used to build all interfaces.
+    </p>
+    <p>
+      On the backend, i'm using <code>Python</code> as main language (but today i would use <code>Node.js</code>), <code>Flask</code> is a framework used to create APIs (Application Programming Interface, are used to create call pointers between the frontend and backend of an application). The <code>PostgreSQL</code> is a relational database used to store system and user informatios.
+    </p>
+    <p>
+      The <code>Serve</code> library is used to create a static server on <code>Heroku</code> (heroku only allows you to deploy a repository if it is a server)
     </p>
   </div>
 </div>
