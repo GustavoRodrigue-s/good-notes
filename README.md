@@ -50,6 +50,8 @@
   </div>
 </div>
 
+explicar o por que eu não quis usar bibliotecas
+
 <div>
   <h2>Repositories</h2>
   <blockquote>
@@ -121,9 +123,25 @@
       On the backend, i'm using <code>Python</code> as main language (but today i would use <code>Node.js</code>). <code>Flask</code> is a framework used to create APIs (Application Programming Interface, are used to create communication points between the frontend and backend in an application).
     </p>
     <p>
-      <code>Heroku</code> is a hosting service used to "ride up" the application, so everyone can access it. <code>Cloudinary</code> is a simple service used to store images. <code>PostgreSQL</code> is a relational database used to store system and user information.
+      <code>Heroku</code> is a hosting service used to "go up" an application (create a domain, ex: https://yourwebsite.com), so everyone can access it. <code>Cloudinary</code> is a simple service used to store images. <code>PostgreSQL</code> is a relational database used to store system and user information.
     </p>
   </div>
+</div>
+
+<div>
+  <h2>Authentication</h2>
+</div>
+
+<div>
+  <h2>Project Architecture</h2>
+</div>
+
+<div>
+  <h2>Possible Improvements</h2>
+</div>
+
+<div>
+  <h2>Things i learned</h2>
 </div>
 
 
