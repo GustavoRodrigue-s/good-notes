@@ -29,6 +29,9 @@
     <p>
       Initially it was to learn about <code>Javascript</code> and how the flow of a "real application" works, however i learned a lot more than i expected. For these reasons, i would like to share about the project study and development process.
     </p>
+    <p>
+      <strong>For educational reasons and because this was my first "big" application, i didn't use any library that provided me with ready-made stuff.</strong>
+    </p>
     <h3>Main Features</h3>
     <dl>
       <dt>Short explanation</dt>
@@ -49,8 +52,6 @@
     </dl>
   </div>
 </div>
-
-explicar o por que eu não quis usar bibliotecas
 
 <div>
   <h2>Repositories</h2>
@@ -123,17 +124,32 @@ explicar o por que eu não quis usar bibliotecas
       On the backend, i'm using <code>Python</code> as main language (but today i would use <code>Node.js</code>). <code>Flask</code> is a framework used to create APIs (Application Programming Interface, are used to create communication points between the frontend and backend in an application).
     </p>
     <p>
-      <code>Heroku</code> is a hosting service used to "go up" an application (create a domain, ex: https://yourwebsite.com), so everyone can access it. <code>Cloudinary</code> is a simple service used to store images. <code>PostgreSQL</code> is a relational database used to store system and user information.
+      <code>Heroku</code> is a hosting service used to "go up" an application (create a domain, ex: https://github.com), so everyone can access it. <code>Cloudinary</code> is a simple service used to store images. <code>PostgreSQL</code> is a relational database used to store system and user information.
     </p>
   </div>
 </div>
 
 <div>
   <h2>Authentication</h2>
+  <p>
+    For the server to identify each user, between various authentication types i chose <code>JWT</code> (Json Web Token) authentication. The <strong>access token</strong> allows the main actions, <strong>refresh token</strong> can create new <strong>access token</strong> and <strong>emailConfirmation token</strong> allows and autorizes all email actions.
+  </p>
 </div>
 
 <div>
   <h2>Project Architecture</h2>
+  <p>
+    An organized and architected project makes your code more readble, scalable and maintainable. I "suffered" a lot until understood that i need an achitecture. For these reasons i used the MVC (Model View Controller) pattern. 
+  </p>
+  <p>
+    <code>M</code> The model is an entity representation, responsible for storing business rules and database queries.
+  </p>
+  <p>
+    <code>V</code> The view is the client interface, responsible for makes to communication between the user and the <strong>model</strong>.
+  </p>
+  <p>
+    <code>C</code> The controller is an intermediary between the <strong>view</stron> and the model, responsibler for autorizing the view to access the <strong>model</strong> action.
+  </p>
 </div>
 
 <div>
