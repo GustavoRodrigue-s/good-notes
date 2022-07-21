@@ -145,10 +145,10 @@
     <code>M</code> The model is an entity representation, responsible for storing business rules and database queries.
   </p>
   <p>
-    <code>V</code> The view is the client interface, responsible for makes to communication between the user and the <strong>model</strong>.
+    <code>V</code> The view is the client interface, responsible for makes to communication between the <strong>view</strong> and the <strong>model</strong>.
   </p>
   <p>
-    <code>C</code> The controller is an intermediary between the <strong>view</stron> and the model, responsibler for autorizing the view to access the <strong>model</strong> action.
+    <code>C</code> The controller is an intermediary between the <strong>view</strong> and the <strong>model</strong>, responsible for autorizing the <strong>view</strong> to access the <strong>model</strong> action.
   </p>
 </div>
 
