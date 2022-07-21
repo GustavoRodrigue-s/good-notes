@@ -118,7 +118,7 @@
       On the frontend, <code>HTML</code>, <code>CSS</code> and <code>JS</code> are used to build all interfaces. The <code>Serve</code> library is used to create a static server on <code>Heroku</code> (heroku only allows you to deploy a repository if it is a server)
     </p>
     <p>
-      On the backend, i'm using <code>Python</code> as main language (but today i would use <code>Node.js</code>). <code>Flask</code> is a framework used to create APIs (Application Programming Interface, are used to create call pointers between the frontend and backend of an application).
+      On the backend, i'm using <code>Python</code> as main language (but today i would use <code>Node.js</code>). <code>Flask</code> is a framework used to create APIs (Application Programming Interface, are used to create communication points between the frontend and backend in an application).
     </p>
     <p>
       <code>Heroku</code> is a hosting service used to "ride up" the application, so everyone can access it. <code>Cloudinary</code> is a simple service used to store images. <code>PostgreSQL</code> is a relational database used to store system and user information.
