@@ -218,6 +218,8 @@ display.setValue(0);
 counter.subscribe(display.setValue);</pre>
 
   <p>Every time the counter state is updated, all counter observers are notified. So we can decouple/separate the layers, improving code control and maintainability.</p>
+  
+  <p><strong>Important</strong>: It is not always good to use the observer pattern, as this pattern adds a (sometimes unnecessary) complexity that is considered "over engineering". For these reasons, i don't use it on every layer.</p>
 </div>
 
 <div>
