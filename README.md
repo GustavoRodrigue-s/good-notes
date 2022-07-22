@@ -137,7 +137,7 @@
 </div>
 
 <div>
-  <h2>Project Architecture</h2>
+  <h2>Architecture</h2>
   <p>
     An organized and architected project makes your code more readble, scalable and maintainable. I "suffered" a lot until understood that i need an achitecture. For these reasons i used the MVC (Model View Controller), factory and observer pattern. 
   </p>
@@ -153,7 +153,7 @@
   
   &nbsp;
   
-  <p>With factory, we can create a layer (represents an application component) and with observer you can separate these layes.</p>
+  <p>With factory, we can create a layer (represents an application component) and with observer you can separate these layers.</p>
   
   <h3>Layer example with factory:</h3>
   
@@ -170,7 +170,7 @@ function createCounter() {
 
 const counter = createCounter(); // { increment }
 
-couter.increment()</pre>
+couter.increment();</pre>
 
   <p>The state stores the layer's global values. Creating layers like this, we can organize what are the private and public values and functions.</p>
 
@@ -226,6 +226,11 @@ counter.subscribe(display.setValue);</pre>
 </div>
 
 <div>
+  <h2>Details</h2>
+  .env , tratamento de erros
+</div>
+
+<div>
   <h2>Possible Improvements</h2>
 </div>
 
@@ -233,4 +238,6 @@ counter.subscribe(display.setValue);</pre>
   <h2>Things i learned</h2>
 </div>
 
-
+<div>
+  
+</div>
