@@ -150,6 +150,9 @@
   <p>
     <code>C</code> The controller is an intermediary between the <strong>view</strong> and the <strong>model</strong>, responsible for autorizing the <strong>view</strong> to access the <strong>model</strong> action.
   </p>
+  
+  &nbsp;
+  
   <p>With factory, we can create a layer (represents an application component) and with observer you can separate these layes.</p>
   
   <h3>Layer example with factory:</h3>
@@ -219,7 +222,7 @@ counter.subscribe(display.setValue);</pre>
 
   <p>Every time the counter state is updated, all counter observers are notified. So we can decouple/separate the layers, improving code control and maintainability.</p>
   
-  <p><strong>Important</strong>: It is not always good to use the observer pattern, as this pattern adds a (sometimes unnecessary) complexity that is considered "over engineering". For these reasons, i don't use it on every layer.</p>
+  <p><strong>Important</strong>: It is not always good to use the observer pattern, because this pattern adds a (sometimes unnecessary) complexity that is considered "over engineering". For these reasons, i don't use it on every layer.</p>
 </div>
 
 <div>
