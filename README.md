@@ -226,16 +226,14 @@ counter.subscribe(display.setValue);</pre>
 </div>
 
 <div>
-  <h2>Details</h2>
-  .env , tratamento de erros
+  <h2>Important Details</h2>
+  <p>
+    All sensitive keys are hidden in the .env file and all error handling as database connection and user actions are implemented. As also the basic security implementations, like password secutiry in database with encryption.
+  </p>
 </div>
 
 <div>
   <h2>Possible Improvements</h2>
-</div>
-
-<div>
-  <h2>Things i learned</h2>
 </div>
 
 <div>
