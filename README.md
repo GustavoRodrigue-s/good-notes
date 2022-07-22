@@ -169,6 +169,8 @@ const counter = createCounter(); // { increment }
 
 couter.increment()</pre>
 
+  <p>The state stores the layer's global values. Creating layers like this, we can organize what are the private and public values and functions.</p>
+
   <h3>Layer example with factory and observer:</h3>
 
   <pre>
@@ -178,7 +180,7 @@ function createDisplay() {
   }
 
   const setValue = (value) => {
-    display.innerText = value;
+    state.display.innerText = value;
   }
 
   return { setValue }
@@ -205,7 +207,7 @@ function createCounter() {
     notifyAll(state.currentValue); // Notify all observers
   }
 
-  return { increment, subscribe } // Here stays the public methods (Methods that all layers can access)
+  return { increment, subscribe }
 }
 
 const counter = createCounter(); // { increment, subscribe }
@@ -214,6 +216,8 @@ const display = createDisplay(); // { setValue }
 display.setValue(0);
 
 counter.subscribe(display.setValue);</pre>
+
+  <p>Every time the counter state is updated, all counter observers are notified. So we can decouple/separate the layers, improving code control and maintainability.</p>
 </div>
 
 <div>
