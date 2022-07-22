@@ -150,8 +150,70 @@
   <p>
     <code>C</code> The controller is an intermediary between the <strong>view</strong> and the <strong>model</strong>, responsible for autorizing the <strong>view</strong> to access the <strong>model</strong> action.
   </p>
-  <p>With factory, we can create a layer (represents an application component) and with observer you can separate these layes. Layer example:</p>
+  <p>With factory, we can create a layer (represents an application component) and with observer you can separate these layes.</p>
   
+  <h3>Layer example with factory:</h3>
+  
+  <pre>
+function createCounter() {
+  const state = {
+    currentValue: 0 // When the increment function is called, this value is changed
+  }
+
+  const increment = () => state.currentValue++
+
+  return { increment } // Here stays the public methods (Methods that all layers can access)
+}
+
+const counter = createCounter(); // { increment }
+
+couter.increment()</pre>
+
+  <h3>Layer example with factory and observer:</h3>
+
+  <pre>
+function createDisplay() {
+  const state = {
+    display: document.querySelector('.display')
+  }
+
+  const setValue = (value) => {
+    display.innerText = value;
+  }
+
+  return { setValue }
+}
+  
+function createCounter() {
+  const state = {
+    observers: [],
+    currentValue: 0
+  }
+  
+  const subscribe = (observerFunction) => {
+      state.observers.push(observerFunction); // Register an observer
+  }
+
+  const notifyAll = (counterValue) => {
+    for (const observerFunction of state.observers) {
+      observerFunction(counterValue);
+    }
+  }
+
+  const increment = () => {
+    state.currentValue++;
+    notifyAll(state.currentValue); // Notify all observers
+  }
+
+  return { increment, subscribe } // Here stays the public methods (Methods that all layers can access)
+}
+
+const counter = createCounter(); // { increment, subscribe }
+const display = createDisplay(); // { setValue }
+
+display.setValue(0);
+
+counter.subscribe(display.setValue);</pre>
 </div>
 
 <div>
