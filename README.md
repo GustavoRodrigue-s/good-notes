@@ -139,17 +139,19 @@
 <div>
   <h2>Project Architecture</h2>
   <p>
-    An organized and architected project makes your code more readble, scalable and maintainable. I "suffered" a lot until understood that i need an achitecture. For these reasons i used the MVC (Model View Controller) pattern. 
+    An organized and architected project makes your code more readble, scalable and maintainable. I "suffered" a lot until understood that i need an achitecture. For these reasons i used the MVC (Model View Controller), factory and observer pattern. 
   </p>
   <p>
     <code>M</code> The model is an entity representation, responsible for storing business rules and database queries.
   </p>
   <p>
-    <code>V</code> The view is the client interface, responsible for makes to communication between the <strong>view</strong> and the <strong>model</strong>.
+    <code>V</code> The view is the client interface, responsible for makes to communication between the user and the <strong>model</strong>.
   </p>
   <p>
     <code>C</code> The controller is an intermediary between the <strong>view</strong> and the <strong>model</strong>, responsible for autorizing the <strong>view</strong> to access the <strong>model</strong> action.
   </p>
+  <p>With factory, we can create a layer (represents an application component) and with observer you can separate these layes. Layer example:</p>
+  
 </div>
 
 <div>
