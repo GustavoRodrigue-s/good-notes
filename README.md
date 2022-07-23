@@ -232,10 +232,21 @@ counter.subscribe(display.setValue);</pre>
   </p>
 </div>
 
+
 <div>
   <h2>Possible Improvements</h2>
+  <p>
+    I made a lot of decisions based on the idea of learning more, so some features could be better, like:
+  </p>
+  <ul>
+    <li>Add a rich text library to edit notes (Improving user expirence)</li>
+    <li></li>
+  </ul>
 </div>
 
 <div>
   
 </div>
+
+
+
