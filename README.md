@@ -228,7 +228,7 @@ counter.subscribe(display.setValue);</pre>
 <div>
   <h2>Important Details</h2>
   <p>
-    All sensitive keys are hidden in the .env file and all error handling as database connection and user actions are implemented. As also the basic security implementations, like password secutiry in database with encryption.
+    All sensitive keys are hidden in the .env file and all error handling like database connection and user actions are implemented. Other basic security implementations such as database password encryption were also introduced.
   </p>
 </div>
 
