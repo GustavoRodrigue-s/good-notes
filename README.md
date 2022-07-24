@@ -221,5 +221,3 @@
   <h2>Thanks for Read</h2>
 </div>
 
-
-
