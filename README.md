@@ -255,6 +255,20 @@ counter.subscribe(display.setValue);</pre>
         </p>
       </div>
     </li>
+    <li>
+      <div>
+        <span>Category Filters and Personalizations</span>
+        <p>
+          For more functionalities, i would add filters in categories 
+        </p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>Paging Stack</span>
+        <p></p>
+      </div>
+    </li>
   </ul>
 </div>
 
