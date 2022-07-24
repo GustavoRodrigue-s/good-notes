@@ -163,10 +163,10 @@
 
   <h3>Layer example with factory and observer:</h3>
 
-  <img src="https://user-images.githubusercontent.com/81722068/180630630-4be55c80-9f4e-4666-975e-a396f7718a23.png" />
+  <img src="https://user-images.githubusercontent.com/81722068/180630756-8b6450f9-5060-4b36-ab22-b8979272cab3.png" />
 
   <p>Every time the counter state is updated, all counter observers are notified. So we can decouple/separate the layers, improving code control and maintainability.</p>
-  
+
   <p><strong>Important</strong>: It is not always good to use the observer pattern, because this pattern adds a (sometimes unnecessary) complexity that is considered "over engineering". For these reasons, i don't use it on every layer.</p>
 </div>
 
