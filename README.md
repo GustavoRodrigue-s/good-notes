@@ -236,11 +236,25 @@ counter.subscribe(display.setValue);</pre>
 <div>
   <h2>Possible Improvements</h2>
   <p>
-    I made a lot of decisions based on the idea of learning more, so some features could be better, like:
+    I made a lot of decisions based on the idea of learning, so some features could be better, like:
   </p>
   <ul>
-    <li>Add a rich text library to edit notes (Improving user expirence)</li>
-    <li></li>
+    <li>
+      <div>
+        <span>Rich Text</span>
+        <p>
+          The rich text is a <em>good notes</em> feature used to edit notes but this feature is limited, because it was created with pure <code>Javascript</code> and the only way to make a rich text is using the execCommand method of the document (this method is deprecated). To solve this problem i would add a rich text library, so the rich text would have more functionality and would also improve the user experience.
+        </p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>React.js</span>
+        <p>
+          I would add <code>React.js</code> to increase development scalability and productivity.
+        </p>
+      </div>
+    </li>
   </ul>
 </div>
 
