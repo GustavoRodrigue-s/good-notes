@@ -163,49 +163,7 @@
 
   <h3>Layer example with factory and observer:</h3>
 
-  <pre>
-function createDisplay() {
-  const state = {
-    display: document.querySelector('.display')
-  }
-
-  const setValue = (value) => {
-    state.display.innerText = value;
-  }
-
-  return { setValue }
-}
-  
-function createCounter() {
-  const state = {
-    observers: [],
-    currentValue: 0
-  }
-  
-  const subscribe = (observerFunction) => {
-      state.observers.push(observerFunction); // Register an observer
-  }
-
-  const notifyAll = (counterValue) => {
-    for (const observerFunction of state.observers) {
-      observerFunction(counterValue);
-    }
-  }
-
-  const increment = () => {
-    state.currentValue++;
-    notifyAll(state.currentValue); // Notify all observers
-  }
-
-  return { increment, subscribe }
-}
-
-const counter = createCounter(); // { increment, subscribe }
-const display = createDisplay(); // { setValue }
-
-display.setValue(0);
-
-counter.subscribe(display.setValue);</pre>
+  <img src="https://user-images.githubusercontent.com/81722068/180630630-4be55c80-9f4e-4666-975e-a396f7718a23.png" />
 
   <p>Every time the counter state is updated, all counter observers are notified. So we can decouple/separate the layers, improving code control and maintainability.</p>
   
