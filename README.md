@@ -157,20 +157,7 @@
   
   <h3>Layer example with factory:</h3>
   
-  <pre>
-function createCounter() {
-  const state = {
-    currentValue: 0 // When the increment function is called, this value is changed
-  }
-
-  const increment = () => state.currentValue++
-
-  return { increment } // Here stays the public methods (Methods that all layers can access)
-}
-
-const counter = createCounter(); // { increment }
-
-couter.increment();</pre>
+  <img src="https://user-images.githubusercontent.com/81722068/180630295-399d2183-0538-42bf-a178-bd05d1b6f1d7.png" />
 
   <p>The state stores the layer's global values. Creating layers like this, we can organize what are the private and public values and functions.</p>
 
@@ -273,7 +260,7 @@ counter.subscribe(display.setValue);</pre>
 </div>
 
 <div>
-  
+  <h2>Thanks for Read</h2>
 </div>
 
 
