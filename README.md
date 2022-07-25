@@ -202,7 +202,7 @@
     </li>
     <li>
       <div>
-        <span>Category Filters and Personalizations</span>
+        <span>Category Filters and Customizations</span>
         <p>
           Maybe it would be interesting to add category filters and more customizations, also improving the user experience.
         </p>
