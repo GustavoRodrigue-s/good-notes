@@ -204,7 +204,7 @@
       <div>
         <span>Category Filters and Personalizations</span>
         <p>
-          Maybe it would be interesting to add category filters and more customizations, also improving the user expierence.
+          Maybe it would be interesting to add category filters and more customizations, also improving the user experience.
         </p>
       </div>
     </li>
