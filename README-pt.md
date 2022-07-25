@@ -53,7 +53,7 @@
           Neste projeto nós temos três entidades, usuário, categoria e nota. Para cada um, nós temos um <code>CRUD</code> (Create, Read, Update, Delete), essas entidades estão relacionadas, é por isso que nós usamos o <code>SQL</code> (Structured Query Language; Usado para relacionar tabelas).
         </p>
         <p>
-          Para manter tudo organizado, eu utilizo o <code>MVC</code> (Model View Controller) no backend, padrões de <code>Factory</code> e <code>Observer</code> no frontend (Mais detalhes sobre arquitetura de software serão citados abaixo).
+          Para manter tudo organizado, eu usei o <code>MVC</code> (Model View Controller) no backend, padrões de <code>Factory</code> e <code>Observer</code> no frontend (Mais detalhes sobre arquitetura de software serão citados abaixo).
         </p>
       </dd>
     </dl>
