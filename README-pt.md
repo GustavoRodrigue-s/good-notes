@@ -139,87 +139,86 @@
 <div>
   <h2>Autenticação</h2>
   <p>
-    Para o servidor indentificar cada usuário, entre vários tipos de autenticação eu escolhi a autenticação via <code>JWT</code> (Json Web Token). O <strong>access token</strong> permite as ações principais, <strong>refresh token</strong> pode criar um novo <strong>access token</strong> e <strong>emailConfirmation token</strong> permite e altoriza todas as ações de email.
+    Para o servidor indentificar cada usuário, entre vários tipos de autenticação eu escolhi a autenticação via <code>JWT</code> (Json Web Token). O <strong>access token</strong> permite as ações principais, <strong>refresh token</strong> pode criar um novo <strong>access token</strong> e <strong>emailConfirmation token</strong> permite e autoriza todas as ações de email.
   </p>
 </div>
 
 <div>
-  <h2>Architecture</h2>
+  <h2>Arquitetura</h2>
   <p>
-    An organized and architected project makes your code more readble, scalable and maintainable. I "suffered" a lot until understood that i need an achitecture. For these reasons i used the <strong>MVC</strong> (Model View Controller), <strong>factory</strong> and <strong>observer</strong> pattern. 
+    Um projeto organizado e arquitetado deixa seu código mais legível, escalável e manutenível. Eu "sofri" muito até entender que eu precisava de uma arquitetura. Por esses motivos eu usei os padrões de <strong>MVC</strong> (Model View Controller), <strong>factory</strong> e <strong>observer</strong>. 
   </p>
   <p>
-    <code>M</code> The model is an entity representation, responsible for storing business rules and database queries.
+    <code>M</code> O model é um representação de entidade, responsável por armazenar as regras de negócio e as consultas no banco de dados.
   </p>
   <p>
-    <code>V</code> The view is the client interface, responsible for makes to communication between the user and the <strong>model</strong>.
+    <code>V</code> A view é a interface do cliente, responsável por fazer a comunicação entre o usuário e o <strong>model</strong>.
   </p>
   <p>
-    <code>C</code> The controller is an intermediary between the <strong>view</strong> and the <strong>model</strong>, responsible for autorizing the <strong>view</strong> to access the <strong>model</strong> action.
+    <code>C</code> O controller é um intermediário entre a <strong>view</strong> e o <strong>model</strong>, responsável por autorizar a <strong>view</strong> à acessar a ação do <strong>model</strong>.
   </p>
   
   &nbsp;
   
-  <p>With factory, we can create a layer (represents an application component) and with observer you can separate these layers.</p>
+  <p>Com a factory, nós podemos criar uma camada (representa um componente da interface) e com o observer você consegue separar essas camadas.</p>
   
-  <h3>Layer example with factory:</h3>
+  <h3>Camada de exemplo com a factory:</h3>
   
   <img src="https://user-images.githubusercontent.com/81722068/180630295-399d2183-0538-42bf-a178-bd05d1b6f1d7.png" />
 
-  <p>The state stores the layer's global values. Creating layers like this, we can organize what are the private and public values and functions.</p>
+  <p>O state armazena os valores globais da camada. Criando camadas como esta, nós podemos organizar os valores e funções privadas e públicas.</p>
 
-  <h3>Layer example with factory and observer:</h3>
+  <h3>Camada de exemplo com a factory e observer:</h3>
 
   <img src="https://user-images.githubusercontent.com/81722068/180630756-8b6450f9-5060-4b36-ab22-b8979272cab3.png" />
 
-  <p>Every time the counter state is updated, all counter observers are notified. So we can decouple/separate the layers, improving code control and maintainability.</p>
+  <p>Toda vez que o state do contador atualizar, todos os observadores do contador são notificados. Assim nós podemos desacoplar/separar as camadas, melhorando o controle e manutenção do código.</p>
 
-  <p><strong>Important</strong>: It is not always good to use the <strong>observer pattern</strong>, because this pattern adds a (sometimes unnecessary) complexity that is considered <em>"over engineering"</em>. For these reasons, i don't use it on every layer.</p>
+  <p><strong>Importante</strong>: Não é sempre que é bom usar o <strong>observer pattern</strong>, porque este padrão adiciona um complexidade (as vezes desnecessária) que é considerada <em>"over engineering"</em>. Por esses motivos, eu não uso em toda camada.</p>
 </div>
 
 <div>
-  <h2>Important Details</h2>
+  <h2>Detalhes Importante</h2>
   <p>
-    All sensitive keys are hidden in the <code>.env</code> file and all error handling like database connection and user actions are implemented. Other basic security implementations such as database password encryption were also introduced.
+    Todas as chaves sensíveis estão escondidas no arquivo <code>.env</code> e todos os tratamento de erros como a conexão com o banco de dados e ações de usuários estão implementadas. Outras implementações básicas de segurança tal como criptografia de senha no banco de dados também foram introduzidas.
   </p>
 </div>
 
 
 <div>
-  <h2>Possible Improvements</h2>
+  <h2>Possíveis Melhorias</h2>
   <p>
-    In everything we do, there is always a way to improve and this project is no different. Here are some improvements i would make if i were to redo it.
+    Em tudo que nós fazemos, sempre há uma maneira de melhorar e este projeto não é diferente, aqui estão algumas melhorias que eu faria caso eu fosse refaze-lo.
   </p>
   <ul>
     <li>
       <div>
         <span>Rich Text</span>
         <p>
-          The rich text is a <em>good notes</em> feature used to edit notes but this feature is limited, because it was created with pure <code>Javascript</code> and the only way to make a rich text is using the <em>execCommand</em> method of the <em>document</em> (this method is deprecated). To solve this problem i would add a rich text library, so the rich text would have more functionality and would also improve the user experience.
+          O rich text é uma funcionalidade do <em>good notes</em> usado para editar notas mas essa funcionalidade é limitada, porque ela foi criada com <code>Javascript</code> puro e o única maneira de fazer um rich text é usando o método <em>execCommand</em> do <em>document</em> (este método está obsoleto). Para resolver este problema eu adicionaria uma biblioteca de rich text, assim o rich text teria mais funcionalidades e também melhoraria a experiência do usuário.</p>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>Migrar para React.js</span>
+        <p>
+          Eu adicionaria o <code>React.js</code> para melhorar o desenvolvimento, escalabilidade e produtividade.
         </p>
       </div>
     </li>
     <li>
       <div>
-        <span>Switch to React.js</span>
+        <span>Filtros e Customizações de Categorias</span>
         <p>
-          I would add <code>React.js</code> to increase development scalability and productivity.
+          Talvez seria interessante adicionar filros de categorias e mais curstomizações, também melhorando a experiência do usuário.
         </p>
       </div>
     </li>
     <li>
       <div>
-        <span>Category Filters and Customizations</span>
+        <span>Paginação de Categorias e Notas</span>
         <p>
-          Maybe it would be interesting to add category filters and more customizations, also improving the user experience.
-        </p>
-      </div>
-    </li>
-    <li>
-      <div>
-        <span>Pagination of Categories and Notes</span>
-        <p>
-          For improving categories and notes loadings, i would add a pagination of up to 15 items, reducing the amount of traffic on the first load. 
+          Para melhorar a carregamento das categorias e notas, eu adicionaria uma paginação de até 15 itens, reduzindo a quantidade de tráfico no primeiro carregamento. 
         </p>
       </div>
     </li>
@@ -227,8 +226,8 @@
 </div>
 
 <div>
-  <h2>Thanks for Reading</h2>
+  <h2>Obrigado por Ler!</h2>
   <p>
-    Thank you so much for reading this far! I hope this helps a lot of people, maybe with inpiration, learning or something else. See you later. 👋
+    Muito obrigado por ler até aqui! Eu espero que isso ajude muitas pessoas, talvez com inspiração, aprendizado ou qualquer coisa. See you later. 👋
   </p>
 </div>
