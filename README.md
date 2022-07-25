@@ -204,17 +204,21 @@
       <div>
         <span>Category Filters and Personalizations</span>
         <p>
-          For more functionalities, i would add filters in categories 
+          Maybe it would be interesting to add category filters and more customizations, also improving the user expierence.
         </p>
       </div>
     </li>
     <li>
       <div>
-        <span>Paging Stack</span>
-        <p></p>
+        <span>Pagination of Categories and Notes</span>
+        <p>
+          For improving categories and notes loadings, i would add a pagination of up to 15 items, reducing the amount of traffic on the first load. 
+        </p>
       </div>
     </li>
   </ul>
+  
+  <p>PS:</p>
 </div>
 
 <div>
