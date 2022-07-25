@@ -131,7 +131,7 @@
       No backend, eu estou usando <code>Python</code> como linguagem principal (mas hoje eu usaria o <code>Node.js</code>). <code>Flask</code> é um framework usado para criar APIs (Application Programming Interface, são usados para criar pontos de comunicação entre o frontend e o backend em uma aplicação).
     </p>
     <p>
-      <code>Heroku</code> é um serviço de hospedagem usado para "subir" uma aplicação (cria um dominio, ex: https://github.com), assim todos podem acessá-lo. <code>Cloudinary</code> é um simples serviço usado para armazenar imagens. <code>PostgreSQL</code> é um banco de dados relacional usado para armazenar informações do usuário e do sistema.
+      <code>Heroku</code> é um serviço de hospedagem usado para "subir" uma aplicação (cria um dominio, ex: https://github.com), assim todos podem acessá-lo. <code>Cloudinary</code> é um serviço simples usado para armazenar imagens. <code>PostgreSQL</code> é um banco de dados relacional usado para armazenar informações do usuário e do sistema.
     </p>
   </div>
 </div>
@@ -172,13 +172,13 @@
 
   <img src="https://user-images.githubusercontent.com/81722068/180630756-8b6450f9-5060-4b36-ab22-b8979272cab3.png" />
 
-  <p>Toda vez que o state do contador atualizar, todos os observadores do contador são notificados. Assim nós podemos desacoplar/separar as camadas, melhorando o controle e manutenção do código.</p>
+  <p>Toda vez que o state do contador atualizar, todos os observadores do contador são notificados. Assim nós podemos desacoplar/separar as camadas, melhorando o controle e a manutenção do código.</p>
 
   <p><strong>Importante</strong>: Não é sempre que é bom usar o <strong>observer pattern</strong>, porque este padrão adiciona um complexidade (as vezes desnecessária) que é considerada <em>"over engineering"</em>. Por esses motivos, eu não uso em toda camada.</p>
 </div>
 
 <div>
-  <h2>Detalhes Importante</h2>
+  <h2>Detalhes Importantes</h2>
   <p>
     Todas as chaves sensíveis estão escondidas no arquivo <code>.env</code> e todos os tratamento de erros como a conexão com o banco de dados e ações de usuários estão implementadas. Outras implementações básicas de segurança tal como criptografia de senha no banco de dados também foram introduzidas.
   </p>
@@ -218,7 +218,7 @@
       <div>
         <span>Paginação de Categorias e Notas</span>
         <p>
-          Para melhorar a carregamento das categorias e notas, eu adicionaria uma paginação de até 15 itens, reduzindo a quantidade de tráfico no primeiro carregamento. 
+          Para melhorar o carregamento das categorias e notas, eu adicionaria uma paginação de até 15 itens, reduzindo a quantidade de tráfico no primeiro carregamento. 
         </p>
       </div>
     </li>
