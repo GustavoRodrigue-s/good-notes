@@ -2,19 +2,19 @@
 <div>
   <h1 style="color: skyblue;">good-notes</h1>
   <p>
-    The good notes project is a simple and functional notes web application.
+    O projeto good notes é uma aplicação web de notas simples e funcional.
   </p>
   <blockquote>
-    The link to access it's: <a href="https://good-notes-app.herokuapp.com">good notes</a>
+    O link para acessá-lo é: <a href="https://good-notes-app.herokuapp.com">good notes</a>
   </blockquote>
 </div>
 
 <div>
-  <strong>Attention!! The good notes is not a "real application", good notes is just a project.</strong>
+  <strong>Atenção!! O good notes não é uma "aplicação real", o good notes é apenas um projeto.</strong>
 </div>
 
 <div>
-  <h2>Readme languages</h2>
+  <h2>Readme Idiomas</h2>
   <div>
     <a href="https://github.com/GustavoRodrigue-s/good-notes/blob/main/README.md" style="cursor: pointer; color: skyblue;">English</a>
   </div>
@@ -31,29 +31,29 @@
 
 <div>
   <div>
-    <h2>About the project</h2>
-    <h3>What is purpose?</h3>
+    <h2>Sobre o projeto</h2>
+    <h3>Qual é o propósito?</h3>
     <p>
-      Initially it was to learn about <code>Javascript</code> and how the flow of a "real application" works, however i learned a lot more than i expected. For these reasons, i would like to share about the project study and development process.
+      Inicialmente foi em aprender <code>Javascript</code> e como funciona o fluxo de uma "aplicação real", porém eu aprendi mais do que eu esperava. Por esses motivos, eu gostaria de compartilhar sobre o processo de estudo e desenvolvimento do projeto.
     </p>
     <p>
-      <strong>For educational reasons and because this was my first "big" application, i didn't use any library that provided me with ready-made stuff.</strong>
+      <strong>Por motivos educacionais e porque este é minha primeira aplicação "grande", eu não usei nenhuma biblioteca que me fornecesse coisas prontas.</strong>
     </p>
-    <h3>Main Features</h3>
+    <h3>Funcionalidades Principais</h3>
     <dl>
-      <dt>Short explanation</dt>
+      <dt>Explicação curta</dt>
       <dd>
         <p>
-          With <em>good notes</em> you can create an account and store your notes by organizing them into categories.
+          Com o <em>good notes</em> você pode criar uma conta e armazenar suas anotas organizando-as em categorias.
         </p>
       </dd>
-      <dt>Technical explanation</dt>
+      <dt>Explicação técnica</dt>
       <dd>
         <p>
-          In this project we have three entities, user, category and note. For each one, we have a <code>CRUD</code> (Create, Read, Update, Delete), this entities are related, that's why we use <code>SQL</code> (Structured Query Language; Used to relate tables).
+          Neste projeto nós temos três entidades, usuário, categoria e nota. Para cada um, nós temos um <code>CRUD</code> (Create, Read, Update, Delete), essas entidades estão relacionadas, é por isso que nós usamos o <code>SQL</code> (Structured Query Language; Usado para relacionar tabelas).
         </p>
         <p>
-          To keep everything organized, we use <code>MVC</code> (Model View Controller) in the backend, <code>Factory</code> and <code>Observer</code> patterns in the frontend (More details about the software architecture will be cited bellow).
+          Para menter tudo organizado, nós usamos o <code>MVC</code> (Model View Controller) no backend, padrões de <code>Factory</code> e <code>Observer</code> no frontend (Mais detalhes sobre arquitetura de software serão citados abaixo).
         </p>
       </dd>
     </dl>
@@ -61,9 +61,9 @@
 </div>
 
 <div>
-  <h2>Repositories</h2>
+  <h2>Repositórios</h2>
   <blockquote>
-    The links to access the repositories are:
+    Os links para acessar os repositórios são:
     <div>
       <a href="https://github.com/GustavoRodrigue-s/good-notes-frontend">good-notes-frontend</a>
     </div>
@@ -82,9 +82,9 @@
 &nbsp;
 
 <div>
-  <h2>Technologies and services used 🛠️</h2>
+  <h2>Tecnologias e serviços usados 🛠️</h2>
   <div>
-    <h3>Front-end (Client side)</h3>
+    <h3>Front-end (Lado do cliente)</h3>
     <ul>
       <li style="vertical-align: middleware;">
         HTML5 & CSS3
@@ -98,7 +98,7 @@
       <li>Api (Backend)</li>
       <li>Serve</li>
     </ul>
-    <h3>Back-end (Server side)</h3>
+    <h3>Back-end (Lado do servidor)</h3>
     <ul>
       <li>
         Python
@@ -122,24 +122,24 @@
 </div>
 
 <div>
-  <h2>Why use all this?</h2>
+  <h2>Por que usar tudo isso?</h2>
   <div>
     <p>
-      On the frontend, <code>HTML</code>, <code>CSS</code> and <code>JS</code> are used to build all interfaces. The <code>Serve</code> library is used to create a static server on <code>Heroku</code> (heroku only allows you to deploy a repository if it is a server).
+      No frontend, <code>HTML</code>, <code>CSS</code> e <code>JS</code> são usados para contruir todas as interfaces. A biblioteca <code>Serve</code> é usada para criar um servidor estático no <code>Heroku</code> (heroku só permite fazer deploy de um repositório se ele é um servidor).
     </p>
     <p>
-      On the backend, i'm using <code>Python</code> as main language (but today i would use <code>Node.js</code>). <code>Flask</code> is a framework used to create APIs (Application Programming Interface, are used to create communication points between the frontend and backend in an application).
+      No backend, eu estou usando <code>Python</code> como linguagem principal (mas hoje eu usaria o <code>Node.js</code>). <code>Flask</code> é um framework usado para criar APIs (Application Programming Interface, são usados para criar pontos de comunicação entre o frontend e o backend em uma aplicação).
     </p>
     <p>
-      <code>Heroku</code> is a hosting service used to "go up" an application (create a domain, ex: https://github.com), so everyone can access it. <code>Cloudinary</code> is a simple service used to store images. <code>PostgreSQL</code> is a relational database used to store system and user information.
+      <code>Heroku</code> é um serviço de hospedagem usado para "subir" uma aplicação (cria um dominio, ex: https://github.com), assim todos podem acessá-lo. <code>Cloudinary</code> é um simples serviço usado para armazenar imagens. <code>PostgreSQL</code> é um banco de dados relacional usado para armazenar informações do usuário e do sistema.
     </p>
   </div>
 </div>
 
 <div>
-  <h2>Authentication</h2>
+  <h2>Autenticação</h2>
   <p>
-    For the server to identify each user, between various authentication types i chose <code>JWT</code> (Json Web Token) authentication. The <strong>access token</strong> allows the main actions, <strong>refresh token</strong> can create new <strong>access token</strong> and <strong>emailConfirmation token</strong> allows and autorizes all email actions.
+    Para o servidor indentificar cada usuário, entre vários tipos de autenticação eu escolhi a autenticação via <code>JWT</code> (Json Web Token). O <strong>access token</strong> permite as ações principais, <strong>refresh token</strong> pode criar um novo <strong>access token</strong> e <strong>emailConfirmation token</strong> permite e altoriza todas as ações de email.
   </p>
 </div>
 
