@@ -217,11 +217,12 @@
       </div>
     </li>
   </ul>
-  
-  <p>PS:</p>
 </div>
 
 <div>
-  <h2>Thanks for Read</h2>
+  <h2>Thanks for Reading</h2>
+  <p>
+    Thank you so much for reading this far! I hope this helps a lot of people, maybe with inpiration, learning or something else. See you later. 👋
+  </p>
 </div>
 
