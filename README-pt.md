@@ -37,7 +37,7 @@
       Inicialmente foi em aprender <code>Javascript</code> e como funciona o fluxo de uma "aplicação real", porém eu aprendi mais do que eu esperava. Por esses motivos, eu gostaria de compartilhar sobre o processo de estudo e desenvolvimento do projeto.
     </p>
     <p>
-      <strong>Por motivos educacionais e porque este é minha primeira aplicação "grande", eu não usei nenhuma biblioteca que me fornecesse coisas prontas.</strong>
+      <strong>Por motivos educacionais e por ser a minha primeira aplicação "grande", eu não usei nenhuma biblioteca que me fornecesse coisas prontas.</strong>
     </p>
     <h3>Funcionalidades Principais</h3>
     <dl>
