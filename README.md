@@ -139,7 +139,7 @@
 <div>
   <h2>Architecture</h2>
   <p>
-    An organized and architected project makes your code more readble, scalable and maintainable. I "suffered" a lot until understood that i need an achitecture. For these reasons i used the MVC (Model View Controller), factory and observer pattern. 
+    An organized and architected project makes your code more readble, scalable and maintainable. I "suffered" a lot until understood that i need an achitecture. For these reasons i used the <strong>MVC</strong> (Model View Controller), <strong>factory</strong> and <strong>observer</strong> pattern. 
   </p>
   <p>
     <code>M</code> The model is an entity representation, responsible for storing business rules and database queries.
@@ -167,13 +167,13 @@
 
   <p>Every time the counter state is updated, all counter observers are notified. So we can decouple/separate the layers, improving code control and maintainability.</p>
 
-  <p><strong>Important</strong>: It is not always good to use the observer pattern, because this pattern adds a (sometimes unnecessary) complexity that is considered "over engineering". For these reasons, i don't use it on every layer.</p>
+  <p><strong>Important</strong>: It is not always good to use the <strong>observer pattern</strong>, because this pattern adds a (sometimes unnecessary) complexity that is considered <em>"over engineering"</em>. For these reasons, i don't use it on every layer.</p>
 </div>
 
 <div>
   <h2>Important Details</h2>
   <p>
-    All sensitive keys are hidden in the .env file and all error handling like database connection and user actions are implemented. Other basic security implementations such as database password encryption were also introduced.
+    All sensitive keys are hidden in the <code>.env</code> file and all error handling like database connection and user actions are implemented. Other basic security implementations such as database password encryption were also introduced.
   </p>
 </div>
 
@@ -225,4 +225,3 @@
     Thank you so much for reading this far! I hope this helps a lot of people, maybe with inpiration, learning or something else. See you later. 👋
   </p>
 </div>
-
