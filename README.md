@@ -22,6 +22,12 @@
   </div>
 </div>
 
+&nbsp;
+
+<div>
+  <img src="http://img.shields.io/static/v1?label=Status&message=Finished&color=green&style=flat" />
+</div>
+
 <div>
   <div>
     <h2>About the project</h2>
