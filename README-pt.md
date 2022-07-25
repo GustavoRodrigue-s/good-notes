@@ -106,7 +106,7 @@
       </li>
       <li>Flask</li>
     </ul>
-    <h3>Cloud (Storage)</h3>
+    <h3>Cloud (Armazenamento)</h3>
     <ul>
       <li>
         Heroku
