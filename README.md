@@ -36,7 +36,7 @@
       Initially it was to learn about <code>Javascript</code> and how the flow of a "real application" works, however i learned a lot more than i expected. For these reasons, i would like to share about the project study and development process.
     </p>
     <p>
-      <strong>For educational reasons and because this was my first "big" application, i didn't use any library that provided me with ready-made stuff.</strong>
+      <strong>For educational reasons and because it was my first "big" application, i didn't use any library that provided me with ready-made stuff.</strong>
     </p>
     <h3>Main Features</h3>
     <dl>
