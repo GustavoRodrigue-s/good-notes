@@ -187,7 +187,7 @@
 <div>
   <h2>Possible Improvements</h2>
   <p>
-    In everything we do, there is always a way to improve and this project is no different. Here are some improvements i would make if i were to redo it.
+    In everything we do, there is always a way to improve and this project is no different, here are some improvements i would make if i were to redo it.
   </p>
   <ul>
     <li>
@@ -226,7 +226,7 @@
 </div>
 
 <div>
-  <h2>Thanks for Reading</h2>
+  <h2>Thanks for Reading!</h2>
   <p>
     Thank you so much for reading this far! I hope this helps a lot of people, maybe with inpiration, learning or something else. See you later. 👋
   </p>
