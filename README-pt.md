@@ -14,7 +14,7 @@
 </div>
 
 <div>
-  <h2>Readme Idiomas</h2>
+  <h2>Idiomas do Readme</h2>
   <div>
     <a href="https://github.com/GustavoRodrigue-s/good-notes/blob/main/README.md" style="cursor: pointer; color: skyblue;">English</a>
   </div>
