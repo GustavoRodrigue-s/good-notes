@@ -188,7 +188,7 @@
       <div>
         <span>Rich Text</span>
         <p>
-          The rich text is a <em>good notes</em> feature used to edit notes but this feature is limited, because it was created with pure <code>Javascript</code> and the only way to make a rich text is using the execCommand method of the document (this method is deprecated). To solve this problem i would add a rich text library, so the rich text would have more functionality and would also improve the user experience.
+          The rich text is a <em>good notes</em> feature used to edit notes but this feature is limited, because it was created with pure <code>Javascript</code> and the only way to make a rich text is using the <em>execCommand</em> method of the <em>document</em> (this method is deprecated). To solve this problem i would add a rich text library, so the rich text would have more functionality and would also improve the user experience.
         </p>
       </div>
     </li>
