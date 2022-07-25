@@ -181,7 +181,7 @@
 <div>
   <h2>Possible Improvements</h2>
   <p>
-    I made a lot of decisions based on the idea of learning, so some features could be better, like:
+    In everything we do, there is always a way to improve and this project is no different. Here are some improvements i would make if i were to redo it.
   </p>
   <ul>
     <li>
@@ -194,7 +194,7 @@
     </li>
     <li>
       <div>
-        <span>React.js</span>
+        <span>Switch to React.js</span>
         <p>
           I would add <code>React.js</code> to increase development scalability and productivity.
         </p>
