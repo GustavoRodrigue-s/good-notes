@@ -15,10 +15,10 @@
 <div>
   <h2>Readme languages</h2>
   <div>
-    <a href="#" style="cursor: pointer; color: skyblue;">English</a>
+    <a href="https://github.com/GustavoRodrigue-s/good-notes/blob/main/README.md" style="cursor: pointer; color: skyblue;">English</a>
   </div>
   <div>
-    <a href="#" >Portuguese</a>
+    <a href="https://github.com/GustavoRodrigue-s/good-notes/blob/main/README-pt.md" >Portuguese</a>
   </div>
 </div>
 
