@@ -163,13 +163,70 @@
   
   <h3>Layer example with factory:</h3>
   
-  <img src="https://user-images.githubusercontent.com/81722068/180630295-399d2183-0538-42bf-a178-bd05d1b6f1d7.png" />
+   ```js
+    function createCounter() {
+      const state = {
+        currentValue: 0 // When the increment function is called, this value is changed
+      }
+
+      const increment = () => state.currentValue++;
+
+      return { increment } // Here stays the public methods (Methods that all layers can access)
+    }
+
+    const counter = createCounter(); // { increment }
+
+    counter.increment();
+  ```
 
   <p>The state stores the layer's global values. Creating layers like this, we can organize what are the private and public values and functions.</p>
 
   <h3>Layer example with factory and observer:</h3>
+  
+  ```js
+    function createDisplay() {
+      const state = {
+        display: document.querySelector('.display')
+      }
 
-  <img src="https://user-images.githubusercontent.com/81722068/180630756-8b6450f9-5060-4b36-ab22-b8979272cab3.png" />
+      const setValue = value => {
+        state.display.innerText = value;
+      }
+
+      return { setValue }
+    }
+
+    function createCounter() {
+      const state = {
+        observers: [], // List of observers for this layer
+        currentValue: 0
+      }
+
+      const subscribe = observerFunction => {
+        state.observers.push(observerFunction); // Register an observer
+      }
+
+      const notifyAll = counterValue => {
+        for (const observerFunction of state.observers) {
+          observerFunction(counterValue);
+        }
+      }
+
+      const increment = () => {
+        state.currentValue++;
+        notifyAll(state.currentValue); // Notify all observers
+      }
+
+      return { subscribe, increment }
+    }
+
+    const counter = createCounter(); // { subscribe, increment }
+    const display = createDisplay(); // { setValue }
+
+    display.setValue(0);
+
+    counter.subscribe(display.setValue);
+  ```
 
   <p>Every time the counter state is updated, all counter observers are notified. So we can decouple/separate the layers, improving code control and maintainability.</p>
 
