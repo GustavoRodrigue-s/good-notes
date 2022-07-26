@@ -60,7 +60,7 @@
 </div>
 
 <div>
-  <h2>Repositories</h2>
+  <h2>Repositories 📁</h2>
   <blockquote>
     The links to access the repositories are:
     <div>
@@ -136,14 +136,14 @@
 </div>
 
 <div>
-  <h2>Authentication</h2>
+  <h2>Authentication 🔒</h2>
   <p>
     For the server to identify each user, between various authentication types i chose <code>JWT</code> (Json Web Token) authentication. The <strong>access token</strong> allows the main actions, <strong>refresh token</strong> can create new <strong>access token</strong> and <strong>emailConfirmation token</strong> allows and autorizes all email actions.
   </p>
 </div>
 
 <div>
-  <h2>Architecture</h2>
+  <h2>Architecture 🏗️</h2>
   <p>
     An organized and architected project makes your code more readble, scalable and maintainable. I "suffered" a lot until understood that i need an achitecture. For these reasons i used the <strong>MVC</strong> (Model View Controller), <strong>factory</strong> and <strong>observer</strong> pattern. 
   </p>
@@ -234,7 +234,7 @@
 </div>
 
 <div>
-  <h2>Important Details</h2>
+  <h2>Important Details ❗</h2>
   <p>
     All sensitive keys are hidden in the <code>.env</code> file and all error handling like database connection and user actions are implemented. Other basic security implementations such as database password encryption were also introduced.
   </p>
@@ -242,7 +242,7 @@
 
 
 <div>
-  <h2>Possible Improvements</h2>
+  <h2>Possible Improvements 📈</h2>
   <p>
     In everything we do, there is always a way to improve and this project is no different, here are some improvements i would make if i were to redo it.
   </p>
