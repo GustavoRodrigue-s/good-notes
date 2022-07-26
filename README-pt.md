@@ -170,7 +170,21 @@
 
   <h3>Camada de exemplo com a factory e observer:</h3>
 
-  <img src="https://user-images.githubusercontent.com/81722068/180630756-8b6450f9-5060-4b36-ab22-b8979272cab3.png" />
+  ```js
+    function createCounter() {
+      const state = {
+        currentValue: 0 // Quando a função de incremento é chamada, esse valor é alterado
+      }
+
+      const increment = () => state.currentValue++;
+
+      return { increment } // Aqui ficam os métodos públicos (Os métodos que todas as camadas podem acessar)
+    }
+
+    const counter = createCounter(); // { increment }
+
+    counter.increment();
+  ```
 
   <p>Toda vez que o state do contador atualizar, todos os observadores do contador são notificados. Assim nós podemos desacoplar/separar as camadas, melhorando o controle e a manutenção do código.</p>
 
