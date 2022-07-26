@@ -61,7 +61,7 @@
 </div>
 
 <div>
-  <h2>Repositórios</h2>
+  <h2>Repositórios 📁</h2>
   <blockquote>
     Os links para acessar os repositórios são:
     <div>
@@ -137,14 +137,14 @@
 </div>
 
 <div>
-  <h2>Autenticação</h2>
+  <h2>Autenticação 🔒</h2>
   <p>
     Para o servidor indentificar cada usuário, entre vários tipos de autenticação eu escolhi a autenticação via <code>JWT</code> (Json Web Token). O <strong>access token</strong> permite as ações principais, <strong>refresh token</strong> pode criar um novo <strong>access token</strong> e <strong>emailConfirmation token</strong> permite e autoriza todas as ações de email.
   </p>
 </div>
 
 <div>
-  <h2>Arquitetura</h2>
+  <h2>Arquitetura 🏗️</h2>
   <p>
     Um projeto organizado e arquitetado deixa seu código mais legível, escalável e manutenível. Eu "sofri" muito até entender que eu precisava de uma arquitetura. Por esses motivos eu usei os padrões de <strong>MVC</strong> (Model View Controller), <strong>factory</strong> e <strong>observer</strong>. 
   </p>
@@ -235,7 +235,7 @@
 </div>
 
 <div>
-  <h2>Detalhes Importantes</h2>
+  <h2>Detalhes Importantes ❗</h2>
   <p>
     Todas as chaves sensíveis estão escondidas no arquivo <code>.env</code> e todos os tratamento de erros como a conexão com o banco de dados e ações de usuários estão implementadas. Outras implementações básicas de segurança tal como criptografia de senha no banco de dados também foram introduzidas.
   </p>
@@ -243,7 +243,7 @@
 
 
 <div>
-  <h2>Possíveis Melhorias</h2>
+  <h2>Possíveis Melhorias 📈</h2>
   <p>
     Em tudo que nós fazemos, sempre há uma maneira de melhorar e este projeto não é diferente, aqui estão algumas melhorias que eu faria caso eu fosse refaze-lo.
   </p>
