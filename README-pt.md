@@ -164,12 +164,6 @@
   
   <h3>Camada de exemplo com a factory:</h3>
   
-  <img src="https://user-images.githubusercontent.com/81722068/180630295-399d2183-0538-42bf-a178-bd05d1b6f1d7.png" />
-
-  <p>O state armazena os valores globais da camada. Criando camadas como esta, nós podemos organizar os valores e funções privadas e públicas.</p>
-
-  <h3>Camada de exemplo com a factory e observer:</h3>
-
   ```js
     function createCounter() {
       const state = {
@@ -186,6 +180,55 @@
     counter.increment();
   ```
 
+  <p>O state armazena os valores globais da camada. Criando camadas como esta, nós podemos organizar os valores e funções privadas e públicas.</p>
+
+  <h3>Camada de exemplo com a factory e observer:</h3>
+
+  ```js
+    function createDisplay() {
+      const state = {
+        display: document.querySelector('.display')
+      }
+
+      const setValue = value => {
+        state.display.innerText = value;
+      }
+
+      return { setValue }
+    }
+
+    function createCounter() {
+      const state = {
+        observers: [], // Lista de observadores para esta camada
+        currentValue: 0
+      }
+
+      const subscribe = observerFunction => {
+        state.observers.push(observerFunction); // Registra um observador
+      }
+
+      const notifyAll = counterValue => {
+        for (const observerFunction of state.observers) {
+          observerFunction(counterValue);
+        }
+      }
+
+      const increment = () => {
+        state.currentValue++;
+        notifyAll(state.currentValue); // Notifica todos os observadores
+      }
+
+      return { subscribe, increment }
+    }
+
+    const counter = createCounter(); // { subscribe, increment }
+    const display = createDisplay(); // { setValue }
+
+    display.setValue(0);
+
+    counter.subscribe(display.setValue);
+  ```
+  
   <p>Toda vez que o state do contador atualizar, todos os observadores do contador são notificados. Assim nós podemos desacoplar/separar as camadas, melhorando o controle e a manutenção do código.</p>
 
   <p><strong>Importante</strong>: Não é sempre que é bom usar o <strong>observer pattern</strong>, porque este padrão adiciona um complexidade (as vezes desnecessária) que é considerada <em>"over engineering"</em>. Por esses motivos, eu não uso em toda camada.</p>
